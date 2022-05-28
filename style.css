@@ -8,6 +8,7 @@ body {
     /*background-image: linear-gradient(to left, #d7d3e3, #98929f);*/
     background-color: white;
 }
+
 .title h1{
     font-size: 2.1rem;
     line-height: 1em;
@@ -20,6 +21,11 @@ body {
 @media(max-width: 680px){
     .title h1{
         font-size: 1.3em;
+    }
+}
+@media(max-width: 537px){
+    .title h1{
+        font-size: 1em;
     }
 }
 /*
@@ -57,7 +63,7 @@ img{
     }
 }
 a{
-    color: #736d87;
+    color: rgb(177, 154, 154);
 }
 a :hover{
     text-decoration: underline;
@@ -77,6 +83,14 @@ a :hover{
     .info-content {
         background-color: revert;
         color: white;
+        font-size: 0.8em;
+        padding: 0.5rem 2.313vw;
+    }
+    .info-content strong{
+        color: cornsilk;
+    }
+    .info-content a{
+        text-decoration: underline;
     }
 }
 /*@media(max-width: 1300px){
